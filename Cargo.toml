@@ -1,0 +1,10 @@
+[package]
+name = "axum_setup"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+axum = {version = "0.6.17", features = ["headers"]}
+thiserror = "2.0.9"
+askama = "0.12.1"
